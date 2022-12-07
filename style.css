@@ -1,0 +1,59 @@
+body {
+    background-repeat: repeat-x;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLhJvkhFaoDFKneMYzLY3xdESfZNSgZp6Inw&usqp=CAU);
+    background-color: black;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 140px;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+
+.title img {
+    margin-left: 10px;
+}
+
+.Shirts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Shirts div {
+    width: 48vw;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+.Spacer{
+    width: 100vw;
+    height: 10vh;
+}
+.Footer {
+    width: 100vw;
+    
+    background-color: white;
+    margin: 0px ;
+    
+    display: flex;
+
+}
+
+.font {
+    font-family: fantasy;
+}
+@media screen and  (max-width:786px) {
+    .Shirts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 20vw;
+    }
+    
+}
